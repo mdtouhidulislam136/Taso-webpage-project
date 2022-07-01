@@ -1,0 +1,261 @@
+body{
+  margin: auto;
+}
+.App {
+  text-align: center;
+}
+main {
+  width: 85%;
+  height: 100%;
+  padding: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.text-left {
+  text-align: left;
+  margin: 50px auto;
+}
+.text-right {
+  text-align: right;
+  margin: 20px auto;
+}
+.content {
+  text-align: left;
+  line-height: 35px;
+}
+.card a {
+  text-decoration: none;
+}
+
+/* Navbar style code here */
+.menu {
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+.navbar-brand {
+  margin-right: 5rem !important;
+  position: relative;
+}
+.navbar-brand img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nav-link {
+  margin: 0;
+  padding: 20px !important;
+  text-transform: uppercase;
+}
+
+.languageChangeButton button {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+}
+
+/* Login page */
+.login form {
+  border: 1px solid blue;
+}
+.login input,
+.login button {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Home page content style here */
+/* .home-page {
+  margin-top: 50px;
+} */
+
+.react-calendar {
+  width: auto !important;
+  margin: 25px auto;
+}
+/* News page content style here */
+.btn-link {
+  text-decoration: none !important;
+}
+
+
+/* Board Contact member */
+.boardContact {
+  margin: 100px auto;
+}
+
+.boardContact .card img {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}
+.boardContact a,
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.contact {
+  background-color: #D3D3D3;
+  padding: 50px 0;
+}
+.contact .row {
+  padding: 30px 0;
+}
+.feed-back {
+  text-align: left;
+}
+.feed-back span {
+  color: red;
+}
+
+/* Footer style here */
+.partners {
+  background-color: #15171c;
+  text-align: left;
+}
+
+.partners-title {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  line-height: 0px;
+  padding: 50px 0;
+}
+
+
+/* Responsive web page using media quary  */
+
+@media only screen and (max-width: 1280px) {
+  .nav-link {
+    padding: 14px !important;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 1999px) {
+  .nav-link {
+    padding: 7px !important;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .navbar-brand {
+    margin-right: 2rem !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .nav-link {
+    padding: 2px !important;
+  }
+}
+
+/* procedings */
+
+.proceedings {
+  text-align: left;
+  color:black;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px lightgray;
+  padding: 10px;
+  border: 3px solid #fd6a02;
+  width: 100%;
+}
+
+/* advances */
+.button {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fd6a02;
+  background: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border: 3px solid #fd6a02;
+  z-index: 5;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color:#fd6a02 ;
+  color: white;
+
+}
+
+
+.proceding-image{
+  margin-bottom: 100px;
+  border:0;
+}
+
+/* partners */
+
+.description{
+  text-align: left;
+  color: black;
+  padding: 10px;
+  margin: 0px;
+}
+
+.title{
+ font-weight: bold;
+}
+
+
+.feedback_button{
+  background-color: blue;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.feedback {
+  position: right;
+  text-align: right;
+  justify-content: right;
+  margin-bottom: 10px;
+}
+
+
+/* Footer section */
+.alice-carousel__stage-item {
+  margin: 15px !important;
+}
+
+footer {
+  text-align:center;
+  color:white;
+  padding: 30px;
+  background-color: black;
+}
+
+
+/* Admin news posting page style */
+.share button {
+  background-color: skyblue;
+  color: blue;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+
+
+
+
